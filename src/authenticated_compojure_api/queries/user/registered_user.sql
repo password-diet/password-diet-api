@@ -23,7 +23,7 @@ SELECT id
        , email
        , username
 FROM   registered_user
-WHERE  username = ':username'
+WHERE  username = :username
 
 -- name: get-registered-user-by-email
 -- Selects the (id, email, username) for registered user matching the email
